@@ -1,6 +1,7 @@
 # The python sys module contains methods and variables for modifying many elements of the Python Runtime Environment. It allows us to access parameters and functionalities specific to the system.
 import sys 
-import logging
+from src.logger import logging
+
 
 def error_message_detail(error, error_detail:sys):
     # Gives info : On which file in which line the exception has occurred

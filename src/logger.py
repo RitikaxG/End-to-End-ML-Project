@@ -18,6 +18,9 @@ logging.basicConfig(
     level    = logging.INFO,
 )
 
+# Create a logger instance for this module
+logger = logging.getLogger(__name__)
+
 
 # if __name__ == "__main__":
 #     logging.info("Logging has started")
