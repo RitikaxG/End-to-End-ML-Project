@@ -15,14 +15,6 @@ from src.components.model_trainer import ModelTrainerConfig
 from src.components.model_trainer import ModelTrainer 
 
 
-
-# Get the current directory of this script
-current_dir = os.path.dirname(os.path.realpath(__file__))
-# Add the 'src' directory to the Python path
-src_dir = os.path.abspath(os.path.join(current_dir, '..', '..'))
-sys.path.append(src_dir)
-
-
 # enables us to directly define our class variable
 @dataclass
 class DataIngestionConfig:
